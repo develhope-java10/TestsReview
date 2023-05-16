@@ -1,0 +1,87 @@
+[
+  {
+    "_id": "01c94585-8a55-443d-b2d4-b93980b0c78c",
+    "colId": "0bbd895d-940a-49c5-a2d6-36c345253e63",
+    "containerId": "",
+    "name": "Insert Student #1",
+    "url": "http://localhost:9000/students",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-05-16T13:03:04.959Z",
+    "modified": "2023-05-16T13:03:52.821Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Giorgio Bravoni\",\n  \"averageMarks\": \"9.0\"\n}\n",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "678b5ac3-2a4b-46aa-81da-a10a62da85f1",
+    "colId": "0bbd895d-940a-49c5-a2d6-36c345253e63",
+    "containerId": "",
+    "name": "Insert Student #2",
+    "url": "http://localhost:9000/students",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2023-05-16T13:03:59.120Z",
+    "modified": "2023-05-16T13:04:16.530Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Mario Scarsoni\",\n  \"averageMarks\": \"4.5\"\n}\n",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "a3833d5d-d0fc-4446-b598-9e1c92b569b4",
+    "colId": "0bbd895d-940a-49c5-a2d6-36c345253e63",
+    "containerId": "",
+    "name": "Insert Student #3",
+    "url": "http://localhost:9000/students",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2023-05-16T13:04:20.218Z",
+    "modified": "2023-05-16T13:04:41.624Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Giuseppina Nellamedia\",\n  \"averageMarks\": \"6.75\"\n}\n",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "4739c90e-122b-49f1-aaed-66bca593f4dc",
+    "colId": "1f8e8902-732d-4fc7-9fc9-7a833223667e",
+    "containerId": "",
+    "name": "Get all students",
+    "url": "http://localhost:9000/students",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2023-05-16T13:06:52.823Z",
+    "modified": "2023-05-16T13:07:02.166Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "2697c4e1-a034-4c5e-b541-fa2fc41c6108",
+    "colId": "1f8e8902-732d-4fc7-9fc9-7a833223667e",
+    "containerId": "",
+    "name": "Get average marks",
+    "url": "http://localhost:9000/students/marks",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2023-05-16T13:18:10.728Z",
+    "modified": "2023-05-16T13:18:24.458Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
