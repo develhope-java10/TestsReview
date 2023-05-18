@@ -9,6 +9,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class StudentMarksProcessorTests {
+    final static double EQUAL_DELTA = 1e-5;
+
     private StudentMarksProcessor marksProcessor;
 
     @BeforeEach
@@ -19,7 +21,7 @@ public class StudentMarksProcessorTests {
     @Test
     void testWithEmptyClassroom() {
         double average = marksProcessor.getClassroomMarks(new ArrayList<>());
-        assertEquals(0.0, average, 1e-5);
+        assertEquals(0.0, average, EQUAL_DELTA);
     }
 
     @Test
@@ -30,6 +32,6 @@ public class StudentMarksProcessorTests {
         classroom.add(new Student(1, "Gigi Neri", 7.5));
 
         double average = marksProcessor.getClassroomMarks(classroom);
-        assertEquals(8.166667, average, 1e-5);
+        assertEquals(8.166667, average, EQUAL_DELTA);
     }
 }
