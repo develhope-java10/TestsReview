@@ -9,7 +9,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class StudentMarksProcessorTests {
-    final static double EQUAL_DELTA = 1e-5;
+    static final double EQUAL_DELTA = 1e-5;
 
     private StudentMarksProcessor marksProcessor;
 
