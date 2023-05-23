@@ -7,7 +7,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class StudentMarksProcessor {
 	public double getClassroomMarks(List<Student> classroomStudents) throws AverageMarksException {
-		if (classroomStudents.size() == 0) return 0;
+		if (classroomStudents.size() == 0) {
+			return 0;
+		}
 		double sum = 0;
 		for (Student s : classroomStudents) {
 			if (s == null) {
