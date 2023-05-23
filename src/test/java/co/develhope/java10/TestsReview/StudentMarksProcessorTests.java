@@ -49,14 +49,15 @@ public class StudentMarksProcessorTests {
     }
 
     @Test
-    void testWithOneStudent(){
+    void testWithOneStudent() {
         List<Student> classroom = new ArrayList<>();
         classroom.add(new Student(1, "Mario Rossi", 9.0));
-        double average= marksProcessor.getClassroomMarks(classroom);
-        assertEquals(9.0,average);
+        double average = marksProcessor.getClassroomMarks(classroom);
+        assertEquals(9.0, average);
     }
+
     @Test
-    void oneStudentWithNullName(){
+    void oneStudentWithNullName() {
         List<Student> classroom = new ArrayList<>();
         classroom.add(new Student(1, null, 9.0));
         classroom.add(new Student(2, "Mario Rossi", 7.0));
